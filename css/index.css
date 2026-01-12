@@ -141,16 +141,12 @@ p{
     }
 
     h4{
-        font-size: 35px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
+        font-size: 35px;        
         text-align: center;
     } 
 
     h5{
-        font-size: 35px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
+        font-size: 35px;        
         text-align: center;
     }
 
@@ -162,10 +158,7 @@ p{
     p{
         font-size: 30px;
         text-align: justify;
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-        text-indent: 3.5rem;      
+            
     }
 
     .baner{     
@@ -208,16 +201,12 @@ p{
     }
 
     h4{
-        font-size: 35px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
+        font-size: 35px;        
         text-align: center;
     } 
 
     h5{
-        font-size: 35px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
+        font-size: 35px;        
         text-align: center;
     }
 
@@ -229,10 +218,7 @@ p{
     p{
         font-size: 30px;
         text-align: justify;
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-        text-indent: 3.5rem;      
+              
     }
 
 
