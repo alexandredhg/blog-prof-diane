@@ -17,7 +17,7 @@ body{
 h1{       
     background-color: blue;
     color: white;
-    font-size: 32px; 
+    font-size: 28px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
@@ -30,7 +30,7 @@ h1{
 h2{
     background-color: gray; 
     color: white;
-    font-size: 30px;   
+    font-size: 25px;   
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
@@ -42,7 +42,7 @@ h2{
 h3{       
     background-color: coral;
     color:  white;
-    font-size: 28px;
+    font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
@@ -88,7 +88,7 @@ h3{
     
     color:  blueviolet;    
     text-decoration: none; 
-    font-size: 25px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
                    
@@ -107,7 +107,7 @@ h3{
 
 
 
-@media (max-width: 800px) {
+/*@media (max-width: 800px) {
     body{
     margin-left: 4px;
     margin-right: 4px;
@@ -135,12 +135,12 @@ h3{
         gap: 10px;
     } 
 
-}
+}*/
 
 
 
 
-/*@media (max-width: 800px) {
+@media (max-width: 800px) {
     body{
     margin-left: 4px;
     margin-right: 4px;
@@ -149,28 +149,29 @@ h3{
     }
 
     h1{
-        font-size: 3.5rem;
+        font-size: 35px;
         text-align: center;
     }
 
     h2{
-        font-size: 3.5rem;
+        font-size: 32px;
         text-align: center;
     }
 
     h3{
-        font-size: 3.5rem;
+        font-size: 32px;
         text-align: center;
     }
 
     .menuLi{
-        font-size: 3.5rem;
+        font-size: 27px;
         text-align: center;
 
     }
 
     .baner{     
         flex-direction: column;
+        gap: 20px;
     } 
     
     .baner2{
@@ -192,27 +193,28 @@ h3{
     }
 
     h1{
-        font-size: 2.5rem;
+        font-size: 35px;
         text-align: center;
     }
 
     h2{
-        font-size: 2.5rem;
+        font-size: 32px;
         text-align: center;
     }
 
     h3{
-        font-size: 2.5rem;
+        font-size: 32px;
         text-align: center;
     }
 
     .menuLi{
-        font-size: 3.5rem;
+        font-size: 27px;
         text-align: center;
     }
 
     .baner{     
         flex-direction: column;
+        gap: 20px;
         
     } 
     
@@ -223,7 +225,7 @@ h3{
 
     }   
     
-}*/
+}
      
        
     
