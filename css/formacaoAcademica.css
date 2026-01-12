@@ -15,8 +15,8 @@ body{
 h1{        
     background-color: blue;
     color: white;
-    font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;    
+    font-size: 30px;
+    font-family: inherit;    
     border: none;
     display: flex;
     align-items: center;
@@ -27,7 +27,7 @@ h2{
     background-color: gray;
     color: white;
     font-size: 25px; 
-    font-family: Arial, Helvetica, sans-serif;   
+    font-family: inherit;   
     border: none;
     display: flex;
     align-items: center;
@@ -38,7 +38,7 @@ h3{
     background-color: coral;
     color: white;
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;         
+    font-family: inherit;          
     border: none;
     display: flex;
     align-items: center;
@@ -48,20 +48,21 @@ h3{
 
 h4{
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: inherit; 
     font-weight: bold;
     text-align: center;
 }
 
 h5{
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: inherit; 
     font-weight: bold;
     text-align: center;
 }
 
 p{
     font-size: 20px;
+    font-family: inherit; 
     color: black;
     width: 95%;
     text-align: justify;    
@@ -72,7 +73,7 @@ p{
 
 .menuLi{ 
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;   
+    font-family: inherit;   
     color: blueviolet;    
     text-decoration: none; 
        
@@ -88,7 +89,7 @@ p{
 
 .sair{
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: inherit;     
     text-align: center;
     
 }
@@ -103,7 +104,7 @@ p{
     }
 
     h1{
-        font: size 37px;;
+        font-size: 40px;
         text-align: center;
     }
 
@@ -119,15 +120,11 @@ p{
 
     h4{
         font-size: 35px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
         text-align: center;
     } 
 
     h5{
-        font-size: 35px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
+        font-size: 35px;        
         text-align: center;
     }
 
@@ -139,17 +136,13 @@ p{
     p{
         font-size: 30px;
         text-align: justify;
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-        text-indent: 3.5rem;      
+            
     }
     
     .sair{
         font-size: 35px;
         text-align: center;
     }
-
 
 }
 
@@ -163,7 +156,7 @@ p{
     }
 
     h1{
-        font: size 37px;;
+        font-size: 40px;
         text-align: center;
     }
 
@@ -179,15 +172,11 @@ p{
 
     h4{
         font-size: 35px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
         text-align: center;
     } 
 
     h5{
-        font-size: 35px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
+        font-size: 35px;        
         text-align: center;
     }
 
@@ -199,10 +188,7 @@ p{
     p{
         font-size: 30px;
         text-align: justify;
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-        text-indent: 3.5rem;      
+            
     }
     
     .sair{
@@ -210,5 +196,6 @@ p{
         text-align: center;
     }
 
-
 }
+
+
