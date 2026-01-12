@@ -1,79 +1,103 @@
 *{
     padding: 0;
-    margin: 0; 
-    box-sizing: 0;   
-    
+    margin: 0;
+    box-sizing: 0;
 }
 
 body{
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 60px;
-    margin-bottom: 40px;   
+    margin-bottom: 40px;
+       
 }
 
-
-
-h1{       
+h1{        
     background-color: blue;
     color: white;
-    font-size: 28px; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;    
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-
 }
 
-h2{
-    background-color: gray; 
+h2{       
+    background-color: gray;
     color: white;
-    font-size: 25px;   
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    font-size: 25px; 
+    font-family: Arial, Helvetica, sans-serif;   
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+h3{         
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;         
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+}
+
+h4{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     text-align: center;
 }
 
-h3{       
-    background-color: coral;
-    color:  white;
+h5{
     font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;           
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
 
+p{
+    font-size: 20px;
+    color: black;
+    width: 95%;
+    text-align: justify;    
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 4rem;
+}
 
-/*.baner{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);   
-    margin-top: 3rem;     
-     gap: 2rem;   
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  
-           
-}*/
+.menuLi{ 
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;   
+    color: blueviolet;    
+    text-decoration: none; 
+       
+                
+}
 
-.baner{
+.menuUl{
+    text-align: center;  
+    list-style-type: none;
+              
+    
+}
+
+.baner{ 
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;    
+    align-items: center;      
+       
     
 }
 
 .baner2{
     border: 3px solid white;    
-    height: 16.5rem;
+    height: 17rem;
     width: 30rem;
     margin: 0.7rem;
     margin-top: 2rem;
@@ -81,60 +105,12 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.menuLi{   
-    
-    color:  blueviolet;    
-    text-decoration: none; 
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-                   
-} 
-
-
-.menuUl{  
-    list-style-type: none;
-    text-align: center;
-    /*display: flex;
-    justify-content: space-between;
-    margin-left: 5vw;
-    margin-right: 5vw;*/ 
-                  
-}
-
-
-
-/*@media (max-width: 800px) {
-    body{
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    }
-
-    .baner{     
-        flex-direction: column;
-        gap: 10px;
-    } 
-
-}
-
-@media (max-width: 500px) {
-    body{
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    }
-
-    .baner{     
-        flex-direction: column;
-        gap: 10px;
-    } 
-
+/*.img{
+    border-radius: 50%;
+    border: 3px solid black;
+    border: none;
 }*/
 
 
@@ -142,14 +118,14 @@ h3{
 
 @media (max-width: 800px) {
     body{
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     h1{
-        font-size: 37px;
+        font: size 37px;;
         text-align: center;
     }
 
@@ -163,37 +139,60 @@ h3{
         text-align: center;
     }
 
+    h4{
+        font-size: 35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    } 
+
+    h5{
+        font-size: 35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+
     .menuLi{
         font-size: 30px;
-        text-align: center;
-
+        text-align: center;                
+    }
+    
+    p{
+        font-size: 30px;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;      
     }
 
     .baner{     
         flex-direction: column;
-        gap: 20px;
+        gap: 25px;
     } 
     
     .baner2{
     border: 0px solid white;    
-    height: 30rem;
+    height: 35rem;
     width: 90%;    
 
     }  
+    
     
 }
 
 
 @media (max-width: 500px) {
     body{
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     h1{
-        font-size: 37px;
+        font: size 37px;;
         text-align: center;
     }
 
@@ -207,50 +206,45 @@ h3{
         text-align: center;
     }
 
-    .menuLi{
-        font-size: 30px;
+    h4{
+        font-size: 35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    } 
+
+    h5{
+        font-size: 35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
         text-align: center;
     }
 
+    .menuLi{
+        font-size: 30px;
+        text-align: center;                
+    }
+    
+    p{
+        font-size: 30px;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;      
+    }
+
+
     .baner{     
         flex-direction: column;
-        gap: 20px;
-        
+        gap: 25px;
     } 
     
     .baner2{
     border: 0px solid white;    
-    height: 30rem;
+    height: 35rem;
     width: 90%;    
 
-    }   
+    }      
     
 }
-     
-       
-    
-
-
-
-
-
-
-
-
-
-
-/*.img{
-    border-radius: 50%;
-    border: none;
-}*/
-
-
-
-
-
-
-
-
-
-
-
