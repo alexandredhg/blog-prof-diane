@@ -17,7 +17,7 @@ body{
 h1{       
     background-color: blue;
     color: white;
-    font-size: 30px; 
+    font-size: 28px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
@@ -106,7 +106,7 @@ h3{
 }
 
 
-@media (max-width: 800px) {
+/*@media (max-width: 800px) {
     body{
     margin-left: 4px;
     margin-right: 4px;
@@ -189,7 +189,7 @@ h3{
 
     }   
     
-}
+}*/
      
        
     
