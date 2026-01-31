@@ -198,10 +198,18 @@ p{
     height: 35rem;
     width: 90%;    
 
-    }  
+    } 
+    
+    .contener{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
     
     
 }
+
+
 
 
 @media (max-width: 500px) {
@@ -259,6 +267,12 @@ p{
     height: 35rem;
     width: 90%;    
 
-    }      
+    } 
+    
+    .contener{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
     
 }
