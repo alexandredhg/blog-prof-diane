@@ -1,7 +1,8 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
+    
 }
 
 body{
@@ -113,6 +114,32 @@ p{
     border: 3px solid black;
     border: none;
 }*/
+
+.contener{     
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;    
+     
+}
+
+.item{    
+    
+    margin: 20px;
+    padding: 10px;    
+   
+}
+
+.item2{
+    margin: 20px;
+    padding: 10px;
+   
+}
+
+.item3{
+    margin: 20px;
+    padding: 10px;
+   
+}
 
 
 
